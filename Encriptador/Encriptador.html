@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Reto encriptador de Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptadorestilos.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+        <script src="logicacodigo.js"></script>
+    </head>
+
+    <body class="cajaprincipal">
+
+        <header>
+            <div class="encabezado">
+                <!--<h1>Titulo de la pagina</h1>-->
+                <a href="Encriptador.html"><img src="Logo.png" alt="Logo de ALura"></a>
+            </div>
+
+        </header>
+
+        <main >
+
+            <div class="cajacontenido">
+
+           
+                <section class="parte1">
+
+                  
+                    <p>ingrese texto aqui</p>
+
+                    <input placeholder="Ingrese teisto aqui" class="entrada1" id="textoentrada"></input>
+
+                    
+                    <div class="botonesytexto">
+                        <p class="textoespecialintro">&#9432; Letras minusculas sin acentos</p>
+
+                        <button class="boton botonencriptar" onclick="encriptador()">Encriptar</button>
+
+                        <button class="boton" onclick="desencriptar()">Desencriptar</button>
+                    </div>    
+
+                </section>
+                    
+                <section class="parte2">
+
+                    <div class="elementoscolumnader">
+                    
+                        <img src="Muñeco.png" alt="Figura del men con la lupa" class="imagenmuneco" id="figuramuneco">
+
+                        <p class="textoespecial" id="texto1">No hay ningun mensaje todavia.</p>
+
+                        <p id="texto2">Ingrese alla un texto que desee encriptar o desencriptar</p>
+
+                    </div>    
+
+                    <textarea id="textosalida"></textarea>
+
+                    <button id="botoncopiar" onclick="copiar()">Copiamee!</button>
+
+                </section>    
+
+
+                    
+                 
+
+
+            </div>
+
+            
+
+        </main>
+
+
+        <footer class="piedepagina">
+
+            <p>Aqui va lo del copy</p>
+
+
+            
+        </footer>
+
+
+
+
+
+    </body>
+
+</html>
