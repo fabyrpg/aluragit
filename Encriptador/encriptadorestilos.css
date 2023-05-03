@@ -1,0 +1,124 @@
+.cajaprincipal{
+    background: #E9ECF8;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado{
+    padding: 2em 0 1.5em 0;
+}
+
+.encabezado img{
+    width: 7em;
+}
+
+.cajacontenido{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.parte1{
+    padding-top: 5%;
+    margin-left: 10%;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.parte1 .botonesytexto .textoespecialintro{
+
+    font-size: 1em;
+    color: #495057;
+    padding: 5% 0 3% 0;
+    font-weight: bold;
+    
+}
+
+.parte1 p{
+    padding: 5% 0;
+}
+
+.cajacontenido .entrada1{
+    display: inline;
+    width: 40%;
+    height: 300px;
+    border: none;
+    
+}
+
+/*Parte derecha de la pagina*/
+
+.parte2{
+    align-items: center;
+    text-align: center;
+    color: #343A40;
+    margin-right: 5%;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.elementoscolumnader{
+    margin: 50% 0 0
+}
+
+.imagenmuneco{
+    width: 85%;
+    margin: 1em;
+}
+
+.textoespecial{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0.5em;
+}
+
+#texto2{
+    padding: 0 2em;
+}
+
+.parte2 textarea{
+    width: 95%;
+    height: 8em;
+    display: block;
+    margin: 2em 0;
+}
+
+.boton{
+    font-size: 0.7em;
+    padding: 2em 9em;
+    margin-left: 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    
+}
+
+.botonencriptar{
+    background-color: #0A3871;
+    color: white;
+}
+
+
+#botoncopiar{
+    display: none;
+}
+
+#textosalida{
+    border: none;
+    resize: none;
+}
+
+
+/*Pie de pagina */
+
+.piedepagina{
+    margin-top: 1em;
+    font-size: 0.7em;
+    background: #868E96;
+    padding: 1.5em;
+    text-align: center;
+    
+}
