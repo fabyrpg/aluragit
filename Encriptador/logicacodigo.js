@@ -45,6 +45,10 @@ function desencriptar(){
 
     console.log(textodesencriptado);
 
+    document.getElementById("figuramuneco").style.display = "none";
+    document.getElementById("texto1").style.display = "none";
+    document.getElementById("texto2").style.display = "none";
+
     document.getElementById("textosalida").innerHTML = textodesencriptado;
 
 }
