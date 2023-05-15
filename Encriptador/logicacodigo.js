@@ -23,11 +23,14 @@ function encriptador(){
     document.getElementById("textosalida").innerHTML = textoencriptado;
     console.log (textoencriptado);
 
+    
     document.getElementById("figuramuneco").style.display = "none";
     document.getElementById("texto1").style.display = "none";
     document.getElementById("texto2").style.display = "none";
 
-    document.getElementById("botoncopiar").style.display = "show";
+    document.getElementById("botoncopiar").style.display="inline-block";
+
+    document.getElementById("textoentrada").value = "";
 
 
 }
@@ -51,12 +54,15 @@ function desencriptar(){
 
     document.getElementById("textosalida").innerHTML = textodesencriptado;
 
+    
+
 }
 
 function copiar(){
     var contenido = document.querySelector('#textosalida');
     //contenido.select();
-    console.log(contenido);
-    document.execCommand("copy");
+    contenido.select();
+    navigator.clipboard.writeText(contenido.value);
+    //alert("copiado");
 
 }
