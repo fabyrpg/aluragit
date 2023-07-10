@@ -1,0 +1,8 @@
+.presentacion__imagen{
+    display: block;
+    width: 30%;
+    height: 30%;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 100%;
+}

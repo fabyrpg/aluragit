@@ -1,0 +1,6 @@
+.enlaces-sociales__elemento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 1.25rem;
+}

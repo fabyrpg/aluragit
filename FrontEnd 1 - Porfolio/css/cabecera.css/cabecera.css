@@ -1,0 +1,10 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    align-items: center;
+    background-color: var(--background-color);
+    font-family: Lato;
+    font-size: 1rem;
+}

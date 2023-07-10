@@ -1,0 +1,6 @@
+.enlaces-sociales__enlace{
+    text-decoration: none;
+    color: var(--grey2);
+    font-weight: 700;
+    font-size: 0.95rem;
+}

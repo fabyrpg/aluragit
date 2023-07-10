@@ -1,0 +1,10 @@
+.sobre{
+    padding: 4rem 0 4rem 0;
+    background-color: var(--banner-amarillo);
+    font-family: Raleway;
+    color: white;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    
+}

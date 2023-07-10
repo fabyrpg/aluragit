@@ -1,0 +1,20 @@
+/*due to personal reasons AAAaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaa*/
+
+.container{
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+/*Definiendo los colorcitos*/
+:root{
+    --background-color: #f5f5f5;
+    --banner-amarillo: #C1A041;
+    --banner-brown: #613F21;
+    --font-grey: #A0A0A0;
+    --grey2: #404040;
+}
+
+/*
+font-family: 'Amaranth', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
