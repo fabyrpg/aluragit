@@ -1,4 +1,5 @@
 .hard-soft-skill__contenido{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

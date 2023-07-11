@@ -1,0 +1,10 @@
+.experiencia__boton{
+    min-width: 120px;
+    padding: 1rem 2rem;
+    background-color: var(--banner-brown);   
+    border-radius: 2px;
+    color: white;
+    font-family: Amaranth;
+    font-size: 1rem;
+    text-decoration: none;
+}

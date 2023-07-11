@@ -1,0 +1,23 @@
+.experiencia__imagen{
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    height: auto;
+    max-width: 200px;
+}
+
+.experiencia__imagen--principal{
+    max-width: 680px;
+    height: auto;
+}
+
+.experiencia__imagen--libro{
+    max-width: 320px;
+}
+
+.experiencia__imagen--pinchito{
+    margin-bottom: 2rem;
+}
+
+.experiencia__imagen--tarkircito{
+    max-width: 680px;
+}

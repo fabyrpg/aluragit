@@ -1,0 +1,7 @@
+.formacion{
+    width: 100vw;
+    background-color: var(--banner-amarillo);
+    margin: 0;
+    padding: 4rem 0 4rem 0;
+    margin-bottom: 2rem;
+}

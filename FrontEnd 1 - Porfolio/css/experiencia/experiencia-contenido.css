@@ -1,0 +1,9 @@
+.experiencia__contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia__contenido--imagenes{
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}

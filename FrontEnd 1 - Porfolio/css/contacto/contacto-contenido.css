@@ -1,0 +1,6 @@
+.contacto__contenido{
+    margin-right: 9rem;
+    margin-left: 9rem;
+    display: flex;
+    flex-direction: column;
+}

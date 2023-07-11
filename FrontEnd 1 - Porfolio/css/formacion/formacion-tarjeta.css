@@ -1,0 +1,10 @@
+.formacion__tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formacion__tarjeta--imagen{
+    background-color: var(--background-color);
+    padding: 2.7rem;
+}

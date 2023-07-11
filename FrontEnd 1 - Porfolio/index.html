@@ -42,8 +42,30 @@
     <link rel="stylesheet" href="css/hard-soft-skills/hard-soft-skill-texto.css">
     <link rel="stylesheet" href="css/hard-soft-skills/hard-soft-skill-imagen.css">
     <link rel="stylesheet" href="css/hard-soft-skills/hard-soft-skill-contenido.css">
- 
-    
+    <!--Experiencia Profesional-->
+    <link rel="stylesheet" href="css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia-titulo.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia-contenido.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia-contenedor.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia-imagen.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia-boton.css">
+    <!--Formacion-->
+    <link rel="stylesheet" href="css/formacion/formacion.css">
+    <link rel="stylesheet" href="css/formacion/formacion-titulo.css">
+    <link rel="stylesheet" href="css/formacion/formacion-contenido.css">
+    <link rel="stylesheet" href="css/formacion/formacion-contenedor.css">
+    <link rel="stylesheet" href="css/formacion/formacion-imagen.css">
+    <link rel="stylesheet" href="css/formacion/formacion-descripcion.css">
+    <link rel="stylesheet" href="css/formacion/formacion-tarjeta.css">
+    <!--Contacto-->
+    <link rel="stylesheet" href="css/contacto/contacto.css">
+    <link rel="stylesheet" href="css/contacto/contacto-contenido.css">
+    <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="css/contacto/contacto-descripcion.css">
+    <link rel="stylesheet" href="css/contacto/formulario.css">
+    <!--Footer-->
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/footer/footer-texto.css">
 
 </head>
 
@@ -150,48 +172,105 @@
 
         </section>
 
-        <section class="experiencia">
-            <h2>Experiencia Profesional</h2>
-            <div>
-                <h3>Juego de Cartas TROY</h3>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <a href="#">Ver Proyecto</a>
-            </div>
-            <div>
-                <h3>Libro de Colorear Horror Beauties</h3>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div>
-                <h3>Comisiones</h3>
-                <img src="" alt="">
-                <a href="#">Ver proyecto</a>
+        <section class="experiencia container">
+            <h2 class="experiencia__titulo">Experiencia Profesional</h2>
+            <div class="experiencia__contenido">
+                <div class="experiencia__contenedor">
+                    <h3 class="experiencia__titulo--subtitulo">Juego de Cartas TROY</h3>
+                    <div class="experiencia__contenido--imagenes">
+                        <img class="experiencia__imagen experiencia__imagen--principal" src="imgs/Troy-box.jpg" alt="Imagen de la caja del juego de cartas TROY">
+                        <img class="experiencia__imagen" src="imgs/troy-card-1.jpg" alt="Diseño de una carta principal (ATHENA) de TROY">
+                        <img class="experiencia__imagen" src="imgs/troy-card-2.jpg" alt="Diseño de una carta de efecto de TROY">
+                        <img class="experiencia__imagen" src="imgs/Troy-card-3.jpg" alt="Diseño de una carta de equipamiento de TROY">
+                        <img class="experiencia__imagen" src="imgs/troy-card-back.jpg" alt="Reverso de la carta de TROY">
+                    </div>
+                    <a class="experiencia__boton" href="https://www.upwork.com/freelancers/~0173f71ad072b56567">Ver Proyecto</a>
+                </div>
 
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <a href="">Ver proyecto</a>
-            </div>
+                <div class="experiencia__contenedor">
+                    <h3 class="experiencia__titulo--subtitulo">Libro de Colorear Horror Beauties</h3>
+                    <div class="experiencia__contenido--imagenes">
+                        <img class="experiencia__imagen experiencia__imagen--principal" src="imgs/Horror-beauty-book-sample.jpg" alt="Imagen de muestra del libro de colorear">
+                        <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/Horror-beauty-merlinatest.jpg" alt="Diseño de una chica hongo para colorear">
+                        <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/horro-beauty-chicahongo.jpg" alt="Diseño inspirado en Merlina para colorar">
+                    </div>
+                </div>
+                <div class="experiencia__contenedor">
+                    <h3 class="experiencia__titulo--subtitulo">Comisiones</h3>
+                    <img class="experiencia__imagen--principal experiencia__imagen--pinchito" src="imgs/comi-pinchoz.jpg" alt="Imagen de ilustracion personalizada sobre WoW">
+                    <!--
+                    <img class="experiencia__imagen experiencia__imagen--tarkircito" src="imgs/tarkir-comision.jpg" alt="Imagen original provista por el cliente para la comision. Un Personaje Pandaren de WoW en un caldero, tomando un baño">
+                    <p class="experiencia__descripcion">Imagen de rerferencia provista por el cliente</p> -->
+                    <div class="experiencia__contenido--imagenes">
+                        <img class="experiencia__imagen experiencia__imagen--tarkircito" src="imgs/tarkir-process.jpg" alt="Imagen que describe el proceso de creacion de mis comisiones">
+                        <img class="experiencia__imagen experiencia__imagen--tarkircito" src="imgs/tarkir-comision-final.jpg" alt="Diseño final estilo comic de la comision">
+                    </div>
+                    <a class="experiencia__boton" href="https://www.tiktok.com/@fabypgart/video/7209313946417827077?is_from_webapp=1&sender_device=pc&web_id=7140375047508919813">Ver proyecto</a>
+                </div>
+         </div>
+
         </section>
 
-        <section>
-            <h2>Formacion academica</h2>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section class="formacion container">
+            <div class="formacion__contenido">
+                <h2 class="formacion__titulo">Formacion academica</h2>
+                <div class="formacion__contenedor">
+                    <div class="formacion__tarjeta">
+                        <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/BYOLP-Illustrator.jpg" alt="Imagen del curso del Bring you Own Laptop guy"></div>
+                        <p class="formacion__descripcion" >Adobe Illustrator CC<br>Essentials Training Course<br>Phil Ebiner, Daniel Walter Scott</p>
+                        <p class="formacion__descripcion formacion__descripcion--anio">2022 - Udemy</p>
+                    </div>
+
+                    <div class="formacion__tarjeta">
+                        <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/alura-logo.png" alt="Logo Imagen de Alura"></div>
+                        <p class="formacion__descripcion" >Formacion alura, diseño web HTML<br>CSS y Javascript.</p>
+                        <p class="formacion__descripcion formacion__descripcion--anio">En curso - Alura</p>
+                    </div>
+
+                    <div class="formacion__tarjeta">
+                        <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/Scott-Harris.jpg" alt="Imagen del curso de Scott Harris"></div>
+                        <p class="formacion__descripcion" >Character Art School:<br>Complete Coloring and Painting Course<br>Scott Harris</p>
+                        <p class="formacion__descripcion formacion__descripcion--anio">2021 - Udemy</p>
+                    </div>
+                </div>
+            </div>
+            
         </section>
 
-        <section>
-            <h2>Contacto</h2>
+        <section class="contacto container">
+            <div class="contacto__contenido">
+                <h2 class="contacto__titulo">Contacto</h2>
+                <p class="contacto__descripcion">¿Te gustan mis obras?<br>Complete el siguiente formulario y me pondré en contacto con tan pronto como pueda.</p>
+                <form class="formulario">
+                    <fieldset>
+                        <legend></legend>
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="example@email.com">
+
+                        <label for="asunto"></label>
+                        <input type="text" id="asunto" placeholder="Asunto">
+
+                        <label for="mensaje"></label>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje" id="mensaje"></textarea>
+                    
+                    </fieldset>
+                    <input class="" type="submit" value="Enviar mensaje"  id="">
+                    <button type="button">uwu</button>
+
+
+                </form>
+                
+            </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>Desarrollado por Fabiana Pino 2023</p>
+    <footer class="footer container">
+        <p class="footer__texto">Desarrollado por Fabiana Pino 2023</p>
         
     </footer>
 </body>
