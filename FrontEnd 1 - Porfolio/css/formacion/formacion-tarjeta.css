@@ -6,5 +6,29 @@
 
 .formacion__tarjeta--imagen{
     background-color: var(--background-color);
-    padding: 2.7rem;
+    
+}
+
+
+@media screen and (min-width: 0){
+    .formacion__tarjeta{
+        margin-bottom: 1rem;
+    }
+    .formacion__tarjeta--imagen{
+        padding: 1.2rem 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+    .formacion__tarjeta{
+        margin-bottom: 0px;
+    }
+    .formacion__tarjeta--imagen{
+        padding: 2.7rem;
+    }
+    
 }

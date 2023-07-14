@@ -1,81 +1,75 @@
 .hard-soft-skill__tarjeta{
-    width: 200px;
-    height: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     /*border: solid var(--grey2) 1px;*/
     background-color: white;
-    margin: 0 0.5rem 0.5rem 0;
-    
+    background-repeat: no-repeat;    
 }
 
 .hard-skill__tarjeta--photoshop{
     background-image: url(../../imgs/adobe-photoshop.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .hard-skill__tarjeta--js{
     background-image: url(../../imgs/js.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .hard-skill__tarjeta--illustrator{
     background-image: url(../../imgs/ilustrador-adobe.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .hard-skill__tarjeta--html{
     background-image: url(../../imgs/html5.jpg);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .hard-skill__tarjeta--css{
     background-image: url(../../imgs/css.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .hard-skil__tarjeta--csp{
     background-image: url(../../imgs/csp.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .soft-skill__tarjeta--teamwork{
     background-image: url(../../imgs/trabajo-equipo.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .skill__tarjeta--follow{
     background-image: url(../../imgs/);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .soft-skill__tarjeta--trabajarmucho{
     background-image: url(../../imgs/);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
 }
 
 .soft-skill__tarjeta--organizado{
     background-image: url(../../imgs/organizado.png);
-    background-size: 30%; 
-    background-repeat: no-repeat;
-    background-position: bottom 50px left 15px;
+}
+
+@media screen and (min-width: 0){
+    .hard-soft-skill__tarjeta{
+        width: 150px;
+        height: 100px;
+        margin: 0 1rem 1.2rem 0;
+        background-size: 23%;
+        background-position: bottom 45px left 10px;
+
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .hard-soft-skill__tarjeta{
+        width: 200px;
+        height: 200px;
+        margin: 0 0.5rem 0.5rem 0;
+        background-size: 30%; 
+        background-position: bottom 50px left 15px;
+    }
+    
 }

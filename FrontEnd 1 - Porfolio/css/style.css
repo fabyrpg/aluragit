@@ -1,9 +1,11 @@
 /*due to personal reasons AAAaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaa*/
 
-.container{
-    margin-left: 9rem;
-    margin-right: 9rem;
+
+body{
+    background-color: var(--background-color);
 }
+
+
 
 /*Definiendo los colorcitos*/
 :root{
@@ -13,8 +15,32 @@
     --font-grey: #A0A0A0;
     --grey2: #404040;
 }
-
 /*
 font-family: 'Amaranth', sans-serif;
 font-family: 'Lato', sans-serif;
 */
+
+
+/*Media Queries
+Orden:
+Telefono
+Tablet
+Pantalla mas grandes*/
+
+@media screen and (min-width: 0px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        margin-left: 9rem;
+        margin-right: 9rem;
+    } 
+}

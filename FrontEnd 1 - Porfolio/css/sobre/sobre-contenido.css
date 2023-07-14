@@ -1,7 +1,24 @@
 .sobre__contenido{
-    width: 65%;
+
     /*text-align: justify;
     /*padding-right: 15rem;*/
-    margin-left: 9rem;
-    margin-right: 9rem;
+
+}
+
+@media screen and (min-width: 0){
+    .sobre__contenido{
+        margin: 0;
+        width: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .sobre__contenido{
+        margin-left: 9rem;
+        margin-right: 9rem;
+        width: 65%;
+    }
+
 }

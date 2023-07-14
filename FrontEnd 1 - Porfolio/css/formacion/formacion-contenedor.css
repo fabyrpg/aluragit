@@ -1,6 +1,23 @@
 .formacion__contenedor{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
     width: 100%;
+}
+
+@media screen and (min-width: 0){
+    .formacion__contenedor{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+
+@media screen and (min-width: 992px){
+    .formacion__contenedor{
+        justify-content: space-between;
+    }
 }

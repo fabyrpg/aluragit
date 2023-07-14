@@ -2,11 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Fabiana Pino Portfolio siiiuuuuu</title>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Lato:wght@100;300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <!--Header-->
     <link rel="stylesheet" href="css/cabecera.css/cabecera.css">
@@ -63,6 +64,8 @@
     <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="css/contacto/contacto-descripcion.css">
     <link rel="stylesheet" href="css/contacto/formulario.css">
+    <link rel="stylesheet" href="css/contacto/formulario-area.css">
+    <link rel="stylesheet" href="css/contacto/formulario-boton.css">
     <!--Footer-->
     <link rel="stylesheet" href="css/footer/footer.css">
     <link rel="stylesheet" href="css/footer/footer-texto.css">
@@ -82,13 +85,13 @@
                 <li class="navegacion__elemento"><a class="navegacion__enlace" href="#">Softs Skills</a></li>
                 <li class="navegacion__elemento"><a class="navegacion__enlace" href="#">Proyectos</a></li>
                 <li class="navegacion__elemento"><a class="navegacion__enlace" href="#">Formacion</a></li>
-                <li class="navegacion__elemento"><a class="navegacion__enlace navegacion__enlace--negrita" href="mailto:fabianaepinog@gmail.com">fabianaepinog@gmail.com</a></li>
+                <li class="navegacion__elemento navegacion__elemento--ultimo"><a class="navegacion__enlace navegacion__enlace--negrita" href="mailto:fabianaepinog@gmail.com">fabianaepinog@gmail.com</a></li>
             </ul>
         </nav>
-    </header>
-    
+    </header> 
     <main>
         <section class="presentacion container">
+            <img class="presentacion__imagen" src="imgs/Foto-principal.jpg" alt="Foto de Fabiana Pino. Persona de tez blanca, cabello oscuro y franela negra">
             <div class="presentacion__contenido">
                 <h2 class="presentacion__titulo">Fabiana Pino <br> Ilustracion y diseño gráfico</h2>
                 <p class="presentacion__descripcion">Formada en ciencias de ingenieria, apasionada por el arte y los comics, trabajo como diseñadora grafica y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
@@ -113,14 +116,14 @@
                     </ul>
                 </nav>
             </div>
-            <img class="presentacion__imagen" src="imgs/Foto-principal.jpg" alt="Foto de Fabiana Pino. Persona de tez blanca, cabello oscuro y franela negra">
+            
         </section>
 
         <section class="sobre container">
             <div class="sobre__contenido">
                 <h2 class="sobre__titulo">Sobre Mi</h2>
                 <p class="sobre__texto">Trabajo de día como diseñadora grafica pero mi verdadera pasión son las artes y los medios de expresiones visuales, como los comics, mangas, animaciones y las ilustraciones.</p>
-                <p class="sobre__texto">Con Alura Latam, busco aprender a programar paginas web; considero importante aprender como funcionan las mismas para encaminarme hacia UX/UI, buscando un punto en común entre mis habilidades de ingeniería y el diseño grafico.</p> 
+                <p class="sobre__texto">Con Alura Latam, busco aprender a programar paginas web; considero importante aprender como funcionan las mismas para encaminarme hacia UX/UI, buscando un punto en común entre mis habilidades de programación y el diseño grafico.</p> 
             </div>  
         </section>
 
@@ -178,11 +181,14 @@
                 <div class="experiencia__contenedor">
                     <h3 class="experiencia__titulo--subtitulo">Juego de Cartas TROY</h3>
                     <div class="experiencia__contenido--imagenes">
-                        <img class="experiencia__imagen experiencia__imagen--principal" src="imgs/Troy-box.jpg" alt="Imagen de la caja del juego de cartas TROY">
-                        <img class="experiencia__imagen" src="imgs/troy-card-1.jpg" alt="Diseño de una carta principal (ATHENA) de TROY">
-                        <img class="experiencia__imagen" src="imgs/troy-card-2.jpg" alt="Diseño de una carta de efecto de TROY">
-                        <img class="experiencia__imagen" src="imgs/Troy-card-3.jpg" alt="Diseño de una carta de equipamiento de TROY">
-                        <img class="experiencia__imagen" src="imgs/troy-card-back.jpg" alt="Reverso de la carta de TROY">
+                        <div class="experiencia__contenido--imagenes--principal">
+                            <img class="experiencia__imagen experiencia__imagen--principal" src="imgs/Troy-box.jpg" alt="Imagen de la caja del juego de cartas TROY">
+                            <img class="experiencia__imagen" src="imgs/troy-card-back.jpg" alt="Reverso de la carta de TROY">
+                        </div>
+                        <img class="experiencia__imagen experiencia__imagen--carta" src="imgs/troy-card-1.jpg" alt="Diseño de una carta principal (ATHENA) de TROY">
+                        <img class="experiencia__imagen experiencia__imagen--carta" src="imgs/troy-card-2.jpg" alt="Diseño de una carta de efecto de TROY">
+                        <img class="experiencia__imagen experiencia__imagen--carta" src="imgs/Troy-card-3.jpg" alt="Diseño de una carta de equipamiento de TROY">
+                        
                     </div>
                     <a class="experiencia__boton" href="https://www.upwork.com/freelancers/~0173f71ad072b56567">Ver Proyecto</a>
                 </div>
@@ -191,8 +197,10 @@
                     <h3 class="experiencia__titulo--subtitulo">Libro de Colorear Horror Beauties</h3>
                     <div class="experiencia__contenido--imagenes">
                         <img class="experiencia__imagen experiencia__imagen--principal" src="imgs/Horror-beauty-book-sample.jpg" alt="Imagen de muestra del libro de colorear">
-                        <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/Horror-beauty-merlinatest.jpg" alt="Diseño de una chica hongo para colorear">
-                        <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/horro-beauty-chicahongo.jpg" alt="Diseño inspirado en Merlina para colorar">
+                        <div class="">
+                            <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/Horror-beauty-merlinatest.jpg" alt="Diseño de una chica hongo para colorear">
+                            <img class="experiencia__imagen experiencia__imagen--libro" src="imgs/horro-beauty-chicahongo.jpg" alt="Diseño inspirado en Merlina para colorar">
+                        </div>
                     </div>
                 </div>
                 <div class="experiencia__contenedor">
@@ -217,19 +225,19 @@
                 <div class="formacion__contenedor">
                     <div class="formacion__tarjeta">
                         <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/BYOLP-Illustrator.jpg" alt="Imagen del curso del Bring you Own Laptop guy"></div>
-                        <p class="formacion__descripcion" >Adobe Illustrator CC<br>Essentials Training Course<br>Phil Ebiner, Daniel Walter Scott</p>
+                        <p class="formacion__descripcion">Adobe Illustrator CC<br>Essentials Training Course<br>Phil Ebiner, Daniel Walter Scott</p>
                         <p class="formacion__descripcion formacion__descripcion--anio">2022 - Udemy</p>
                     </div>
 
                     <div class="formacion__tarjeta">
                         <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/alura-logo.png" alt="Logo Imagen de Alura"></div>
-                        <p class="formacion__descripcion" >Formacion alura, diseño web HTML<br>CSS y Javascript.</p>
+                        <p class="formacion__descripcion">Formacion alura, diseño web HTML<br>CSS y Javascript.</p>
                         <p class="formacion__descripcion formacion__descripcion--anio">En curso - Alura</p>
                     </div>
 
                     <div class="formacion__tarjeta">
                         <div class="formacion__tarjeta--imagen"><img class="formacion__imagen" src="imgs/Scott-Harris.jpg" alt="Imagen del curso de Scott Harris"></div>
-                        <p class="formacion__descripcion" >Character Art School:<br>Complete Coloring and Painting Course<br>Scott Harris</p>
+                        <p class="formacion__descripcion">Character Art School:<br>Complete Coloring and Painting Course<br>Scott Harris</p>
                         <p class="formacion__descripcion formacion__descripcion--anio">2021 - Udemy</p>
                     </div>
                 </div>
@@ -241,25 +249,30 @@
             <div class="contacto__contenido">
                 <h2 class="contacto__titulo">Contacto</h2>
                 <p class="contacto__descripcion">¿Te gustan mis obras?<br>Complete el siguiente formulario y me pondré en contacto con tan pronto como pueda.</p>
+
                 <form class="formulario">
                     <fieldset>
                         <legend></legend>
-
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" placeholder="Tu nombre">
-
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" placeholder="example@email.com">
-
-                        <label for="asunto"></label>
-                        <input type="text" id="asunto" placeholder="Asunto">
-
-                        <label for="mensaje"></label>
-                        <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje" id="mensaje"></textarea>
+                        <div class="formulario__area">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Tu nombre">
+                        </div>   
+                        <div class="formulario__area"> 
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="example@email.com">
+                        </div>
+                        <div class="formulario__area formulario__area--asunto"> 
+                            <label for="asunto"></label>
+                            <input type="text" id="asunto" placeholder="Asunto">
+                        </div> 
+                        <div class="formulario__area formulario__area--textarea">  
+                            <label for="mensaje"></label>
+                            <textarea name="mensaje" type="text" cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
+                        </div>
                     
                     </fieldset>
-                    <input class="" type="submit" value="Enviar mensaje"  id="">
-                    <button type="button">uwu</button>
+                    <!--<input class="" type="submit" value="Enviar mensaje"  id="">-->
+                    <button type="button" class="formulario__boton">uwu</button>
 
 
                 </form>
@@ -268,14 +281,9 @@
         </section>
 
     </main>
-
     <footer class="footer container">
         <p class="footer__texto">Desarrollado por Fabiana Pino 2023</p>
         
     </footer>
 </body>
-
-
-
-
 </html>

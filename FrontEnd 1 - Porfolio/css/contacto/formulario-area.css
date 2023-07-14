@@ -1,0 +1,14 @@
+.formulario__area{
+    padding: 0.7rem 0 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--banner-amarillo);
+    display: flex;
+    background-color: var(--background-color);
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+.formulario__area--asunto, .formulario__area--textarea{
+    padding: 0.7rem 0 0.7rem 1rem;
+
+}

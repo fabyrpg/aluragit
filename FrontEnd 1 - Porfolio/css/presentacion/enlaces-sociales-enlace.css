@@ -1,6 +1,26 @@
 .enlaces-sociales__enlace{
     text-decoration: none;
     color: var(--grey2);
-    font-weight: 700;
-    font-size: 0.95rem;
+    
 }
+
+@media screen and (min-width: 0){
+    .enlaces-sociales__enlace{
+        font-size: 0.75rem;
+        font-weight: 700;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+    .enlaces-sociales__enlace{
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+
+}
+

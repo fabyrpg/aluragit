@@ -1,11 +1,32 @@
 .presentacion{
-    padding: 1rem 0 1rem 0;
     display: flex;
     background-color: var(--background-color);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    justify-content: flex-end;
     align-items: center;
     color: var(--grey2);
     font-family: Raleway;
+}
+
+@media screen and (min-width:0){
+    .presentacion{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .presentacion{
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem 0 1rem 0;
+    }
+    
 }

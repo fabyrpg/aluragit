@@ -1,0 +1,11 @@
+.formulario__boton{
+    background-color: var(--banner-brown);
+    border: none;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: Amaranth;
+}

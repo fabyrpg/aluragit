@@ -3,6 +3,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2.5rem;
+
 }
+
+@media screen and (min-width: 0){
+    .experiencia__contenedor{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+
+@media screen and (min-width: 992px){
+    .experiencia__contenedor{
+        margin-bottom: 2.5rem;
+    }
+    
+}
+
 

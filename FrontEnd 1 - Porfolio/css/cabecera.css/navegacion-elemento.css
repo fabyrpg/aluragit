@@ -1,3 +1,20 @@
 .navegacion__elemento{
     list-style: none;
 }
+
+
+
+@media screen and (min-width: 0){
+    .navegacion__elemento{
+        display: none;
+    }
+    .navegacion__elemento--ultimo{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navegacion__elemento{
+        display: block;
+    }
+}

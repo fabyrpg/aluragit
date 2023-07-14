@@ -2,3 +2,9 @@
     text-decoration: none;
     color: var(--grey2);
 }
+
+@media screen and (max-width: 768px){
+    .cabecera__nombre{
+        font-weight: 700;
+    } 
+}

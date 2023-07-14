@@ -1,7 +1,22 @@
 .hard-soft-skill__texto{    
-    padding-left: 1.2rem;
     font-family: Raleway;
     color: var(--grey2);
     font-weight: 700;   
-    font-size: 1rem;
+    text-align: initial;
+}
+
+@media screen and (min-width: 0){
+    .hard-soft-skill__texto{
+        padding-left: 0.4rem;
+        font-size: 0.9rem;
+        /*padding-right:0.4rem;*/
+    }
+}
+
+@media screen and (min-width: 992px){
+    .hard-soft-skill__texto{
+        padding-left: 1.2rem;
+        font-size: 1rem;
+    }
+
 }

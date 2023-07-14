@@ -1,4 +1,16 @@
-.presentacion__contenido{
-    padding-right: 1rem;
+
+
+@media screen and (min-width:0){
+    .presentacion__contenido{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        margin-top: 0.5rem;
+    }
 }
 
+@media screen and (min-width: 992px){
+    .presentacion__contenido{
+        padding-right: 1rem;
+    }
+}

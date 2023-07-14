@@ -1,13 +1,8 @@
 .experiencia__imagen{
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
+
     height: auto;
     max-width: 200px;
-}
-
-.experiencia__imagen--principal{
-    max-width: 680px;
-    height: auto;
+    object-fit: contain;
 }
 
 .experiencia__imagen--libro{
@@ -18,6 +13,40 @@
     margin-bottom: 2rem;
 }
 
-.experiencia__imagen--tarkircito{
-    max-width: 680px;
+.experiencia__imagen--carta{
+    box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.17);
+}
+
+
+
+@media screen and (min-width: 0){
+    .experiencia__imagen--principal{
+        max-width: 100%;
+    }
+    .experiencia__imagen{
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+    .experiencia__imagen--tarkircito{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+    .experiencia__imagen--principal{
+        max-width: 680px;
+        height: auto;
+    }
+    .experiencia__imagen{
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .experiencia__imagen--tarkircito{
+        max-width: 680px;
+    }
 }

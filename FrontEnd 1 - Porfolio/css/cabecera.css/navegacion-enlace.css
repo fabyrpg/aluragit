@@ -1,9 +1,33 @@
 .navegacion__enlace{
-    margin-right: 1.25rem;
+
     text-decoration: none;
     color: var(--grey2);
 }
 
-.navegacion__enlace--negrita{
-    font-weight: 700;
+
+/*Media quearies*/
+
+
+
+@media screen and (min-width: 0){
+    .navegacion__enlace--negrita{
+        font-weight: 300;
+    }
+    .navegacion__enlace{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .navegacion__enlace--negrita{
+        display: block;
+        font-weight: 700;
+    }
+    .navegacion__enlace{
+        margin-right: 1.25rem;
+    }
 }

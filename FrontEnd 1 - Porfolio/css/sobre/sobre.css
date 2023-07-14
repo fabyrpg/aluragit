@@ -1,5 +1,4 @@
 .sobre{
-    padding: 4rem 0 4rem 0;
     background-color: var(--banner-amarillo);
     font-family: Raleway;
     color: white;
@@ -7,4 +6,17 @@
     margin-left: 0;
     margin-right: 0;
     
+}
+
+@media screen and (min-width: 0){
+    .sobre{
+        padding: 2rem 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .sobre{
+        padding: 4rem 0 4rem 0;
+    }
+
 }

@@ -1,6 +1,20 @@
 .contacto__contenido{
-    margin-right: 9rem;
-    margin-left: 9rem;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 0){
+    .contacto__contenido{
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .contacto__contenido{
+        flex-direction: column;
+        margin-right: 9rem;
+        margin-left: 9rem;
+        padding-left: 26rem;
+    }
+
 }

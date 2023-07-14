@@ -1,3 +1,20 @@
 .navegacion__contenido{
-    display: flex;
+    display: block;
+}
+
+/*media queries*/
+
+
+@media screen and (min-width: 0){
+    
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+    .navegacion__contenido{
+        display: flex;       
+    }
 }
