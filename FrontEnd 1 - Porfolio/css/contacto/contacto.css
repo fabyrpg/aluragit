@@ -2,5 +2,22 @@
     margin: 0;
     width: 100vw;
     background-color: var(--banner-amarillo);
-    padding: 5rem 0 2rem 0;
+
+}
+
+@media screen and (min-width: 0){
+    .contacto{
+        padding: 2rem 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .contacto{
+        padding: 5rem 0 2rem 0;
+    }
+    
 }

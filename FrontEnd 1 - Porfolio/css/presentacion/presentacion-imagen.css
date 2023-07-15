@@ -6,10 +6,15 @@
 
 @media screen and (min-width: 0){
     .presentacion__imagen{
-        width: 15%;
+        width: 23%;
     }
     
 }
+
+@media screen and (min-width: 768px){
+
+}
+
 
 @media screen and (min-width: 992px){
     .presentacion__imagen{

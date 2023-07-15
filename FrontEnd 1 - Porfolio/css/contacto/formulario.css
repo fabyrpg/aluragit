@@ -22,6 +22,7 @@
     border: none;
     background-color: var(--background-color);
     outline: none;
+    margin-right: 1rem;
 }
 
 
@@ -29,6 +30,7 @@
     border: none;
     background-color: var(--background-color);
     resize: none;
+    margin-right: 1rem;
 }
 
 ::placeholder{

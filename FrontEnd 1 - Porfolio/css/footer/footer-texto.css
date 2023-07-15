@@ -3,3 +3,19 @@
     font-family: Raleway;
     font-size: 0.75rem;
 }
+
+@media screen and (min-width: 0){
+    .footer__texto{
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+    .footer__texto{
+        font-weight: 300;
+    }
+}

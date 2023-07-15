@@ -2,18 +2,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-image: url(../../imgs/flechita-svg.svg);
+    background-size: 16px;
+    background-position: bottom 10% right 3%;
+    background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 0){
     .enlaces-sociales__elemento{
-        padding-right: 0.5rem;
+        padding-right: 1.35rem;
+        margin-right: 0.7rem;
     }
 
 }
 
 @media screen and (min-width: 992px){
     .enlaces-sociales__elemento{
-        padding-right: 1.25rem;
+        padding-right: 1.5rem;
+        margin-right: 0.5rem;
     }
 }
 
